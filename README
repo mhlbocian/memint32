@@ -1,0 +1,34 @@
+memint32 - MEMory of INTeger on 32 bits
+
+Description
+-----------
+	This program shows how 32 bits integer is represented in computer's
+	memory.
+
+Notes
+-----
+	`$` is a normal user (non-root) command prompt, whereas `#` is a
+	command prompt of shell with root privileges.
+
+Usage
+-----
+	$ memint32 integer
+
+Installation
+------------
+	$ make
+	# make install
+
+	or:
+
+	# make && make install
+
+System environment
+------------------
+	POSIX compliant operating system, ANSI C compiler (like gcc or clang),
+	with `stdio.h`, `stdlib.h` and `string.h` libraries.
+
+License
+-------
+	This program is released under the terms of GNU GPL version 3 license.
+	(C) 2016, Michał Bocian <bocian.michal@outlook.com>
